@@ -1,0 +1,218 @@
+/* Contact Page Styles */
+
+/* General Contact Container */
+.contact-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Form Group Styles */
+.form-group {
+  margin-bottom: 25px;
+}
+
+/* Input Field Styles */
+.form-control {
+  padding: 15px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Textarea Styles */
+textarea.form-control {
+  padding: 15px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  resize: vertical;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+textarea.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Button Styles */
+.contact-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 25px;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+}
+
+.contact-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+/* Column Layout */
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.col-md-6 {
+  width: 48%;
+}
+
+/* For Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .col-md-6 {
+    width: 100%;
+  }
+}
+
+/* Added some space between the form and the message box */
+textarea.form-control {
+  margin-top: 15px;
+}
+
+#btn1 {
+  margin-top: 25px;
+}
+
+/* New Section for Three Features */
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.feature-item h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* For Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-item {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
+
+/* New Section for Subscribe to E-Shop */
+.subscribe-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.subscribe-input {
+  padding: 12px;
+  font-size: 1.2rem;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  width: 50%;
+  max-width: 400px;
+  transition: border-color 0.3s ease;
+}
+
+.subscribe-input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.subscribe-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-btn:hover {
+  background-color: #0056b3;
+}
+
+/* For Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .subscribe-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .subscribe-input {
+    width: 100%;
+  }
+}

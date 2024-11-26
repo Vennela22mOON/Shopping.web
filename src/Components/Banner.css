@@ -1,0 +1,67 @@
+/* Overall Banner Container */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  background-color: #343a40; /* Dark gray background */
+}
+
+/* Banner Content (Left and Right Sections) */
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%; /* 90% of the container width */
+  max-width: 1300px; /* Increased width for larger content */
+  position: relative; /* For absolute positioning of text and button inside the image */
+}
+
+/* Banner Text Section (Positioned inside the image) */
+.banner-text {
+  position: absolute; /* Positioning the text inside the image */
+  top: 20%; /* Adjust this to position the text vertically */
+  left: 10%; /* Align the text on the left side */
+  color: white; /* Ensure text is readable against the dark background */
+}
+
+.banner-text h1 {
+  font-size: 50px; /* Increased text size for more prominence */
+  margin: 10px 0; /* Add spacing between text */
+}
+
+.banner-text .change-content {
+  font-weight: bold;
+  color: #ffc107; /* Highlighted text color */
+}
+
+#btn1 button {
+  background-color: #ffc107;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+#btn1 button:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
+
+/* Banner Image Section (Increased size) */
+.banner-image {
+  width: 100%; /* Make image fill container */
+  max-width: 1500px; /* Increased max width of the image */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the container area */
+}
+
+/* Removed hover effect */
+.banner-image img {
+  width: 100%;
+  height: 100%;
+  transition: none; /* Remove transition effect */
+}
+

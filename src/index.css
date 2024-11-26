@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Global Media Queries */
+
+/* For Mobile Devices (max width: 768px) */
+@media screen and (max-width: 768px) {
+  /* Apply styles for mobile devices */
+  body {
+    font-size: 14px; /* Adjust font size */
+  }
+
+  .container {
+    width: 100%; /* Full width on mobile */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .navbar, .footer {
+    flex-direction: column; /* Stack navbar items */
+  }
+
+  .row {
+    flex-direction: column; /* Stack items in rows */
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* For Tablets (max width: 1024px) */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 90%; /* Adjust container width */
+  }
+
+  .navbar {
+    justify-content: space-between; /* Space out navbar items */
+  }
+
+  .product {
+    width: 45%; /* Adjust product card width */
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-between; /* Display footer sections in row */
+  }
+}
+
+/* For Larger Screens (1024px and above) */
+@media screen and (min-width: 1025px) {
+  .navbar {
+    justify-content: flex-start; /* Align navbar items to the left */
+  }
+
+  .product {
+    width: 22%; /* Display product cards side by side */
+    margin-bottom: 30px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between; /* Space footer sections evenly */
+  }
 }

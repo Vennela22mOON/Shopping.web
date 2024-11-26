@@ -1,0 +1,179 @@
+
+/* Navbar styles */
+#navbar-top {
+  background-color: #343a40; /* Dark Gray */
+  color: white;
+  padding: 10px 0; /* Remove any extra padding */
+  width: 100%;  /* Ensure the navbar spans the entire width */
+  margin: 0;    /* Ensure there's no margin */
+}
+
+/* Yellow background navbar styles */
+#navbar-color {
+  background-color: #ffc107; /* Yellow */
+  padding: 10px 0;
+  width: 100%; /* Ensure the navbar spans the entire width */
+  margin: 0;   /* Ensure there's no margin */
+}
+
+/* Container to ensure proper alignment */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0; /* Remove padding */
+  width: 100%;
+}
+
+/* Remove default margin from the navigation items */
+.navbar-nav {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* Make sure there is no extra margin on individual navbar items */
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+/* Optional: Styling for icons in the navbar */
+.new-icons i {
+  font-size: 20px;
+}
+
+#navbar-top {
+  background-color: #343a40; /* Dark gray background for the top navbar */
+  color: white;
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Navbar Logo */
+#navbar-logo img {
+  width: 50px; /* Logo size */
+  height: auto;
+  margin-right: 10px; /* Space between logo and text */
+}
+
+#navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar Links */
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  color: #555;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #000; /* Black on hover */
+}
+.rsc{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Buttons in Top Navbar */
+#btn3 {
+  background-color: #ffc107; /* Yellow for buttons */
+  border: none;
+  color: black;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#btn3:hover {
+  background-color: #e0a800; /* Slightly darker yellow on hover */
+  color: white;
+}
+
+/* Social Media Icons */
+.icons img {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+/* Main Navbar Styles */
+#navbar-color {
+  background-color: #ffc107; /* Yellow background for the second navbar */
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.new-icons i {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #555;
+  cursor: pointer;
+}
+
+.new-icons i:hover {
+  color: #000; /* Black on hover */
+}
+
+/* Dropdown Styles */
+.nav-item.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  display: none; /* Initially hidden */
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  flex-direction: column;
+  width: 200px;
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 10px 15px;
+  color: #555;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #ffc107; /* Yellow on hover */
+  color: black;
+}
+
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: flex; /* Show dropdown */
+  justify-content: center;
+}
