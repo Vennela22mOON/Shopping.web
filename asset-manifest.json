@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Shopping.web/static/css/main.afcb00eb.css",
+    "main.js": "/Shopping.web/static/js/main.69265c6a.js",
+    "static/js/453.ed3810f9.chunk.js": "/Shopping.web/static/js/453.ed3810f9.chunk.js",
+    "static/media/banner.png": "/Shopping.web/static/media/banner.98b8e71be5f64abd3b79.png",
+    "static/media/p5.png": "/Shopping.web/static/media/p5.3b85d269c7bf1db05829.png",
+    "static/media/slide2.png": "/Shopping.web/static/media/slide2.c0a7c110f6de9941d309.png",
+    "static/media/p8.png": "/Shopping.web/static/media/p8.cebbac782f36577acf63.png",
+    "static/media/watch2.png": "/Shopping.web/static/media/watch2.8ed6921dcd377503b555.png",
+    "static/media/p7.png": "/Shopping.web/static/media/p7.fc2026d8990bf497f281.png",
+    "static/media/slide1.png": "/Shopping.web/static/media/slide1.22723027d29d479b593c.png",
+    "static/media/slide3.png": "/Shopping.web/static/media/slide3.497e6f3bb43364fd398d.png",
+    "static/media/slide8.png": "/Shopping.web/static/media/slide8.e23a800ddad47a83d4cf.png",
+    "static/media/slide6.png": "/Shopping.web/static/media/slide6.4d6dc6a30c9a10929292.png",
+    "static/media/slide5.png": "/Shopping.web/static/media/slide5.27bc221866567bd2f2b5.png",
+    "static/media/p6.png": "/Shopping.web/static/media/p6.fb7d331b5576c7d8dcee.png",
+    "static/media/p1.jpg": "/Shopping.web/static/media/p1.379519f40b8bfcfb5301.jpg",
+    "static/media/p4.jpg": "/Shopping.web/static/media/p4.e5a5dc60ae77f5a0c7a2.jpg",
+    "static/media/shop.png": "/Shopping.web/static/media/shop.a1321c8d7efe5417bc1a.png",
+    "static/media/p3.jpg": "/Shopping.web/static/media/p3.3ec84cc46c52b85d52d0.jpg",
+    "static/media/p2.jpg": "/Shopping.web/static/media/p2.466dead189ae3d3a51ac.jpg",
+    "static/media/slide7.png": "/Shopping.web/static/media/slide7.1f3d00f10799db21cd10.png",
+    "static/media/google.png": "/Shopping.web/static/media/google.cadee8cdb0c0afb1a713.png",
+    "static/media/slide4.png": "/Shopping.web/static/media/slide4.44b4a47b7a4fb10c2c6d.png",
+    "static/media/twitter.png": "/Shopping.web/static/media/twitter.112d93100806a70e5d28.png",
+    "index.html": "/Shopping.web/index.html",
+    "main.afcb00eb.css.map": "/Shopping.web/static/css/main.afcb00eb.css.map",
+    "main.69265c6a.js.map": "/Shopping.web/static/js/main.69265c6a.js.map",
+    "453.ed3810f9.chunk.js.map": "/Shopping.web/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afcb00eb.css",
+    "static/js/main.69265c6a.js"
+  ]
+}
