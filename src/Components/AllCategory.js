@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./AllCategory.css";
-
-// Import images
 import Slide1 from "./images/slide1.png";
 import P2 from "./images/slide7.png";
 import P3 from "./images/slide2.png";
@@ -30,7 +28,7 @@ const AllCategory = () => {
 
   useEffect(() => {
     const slideInterval = setInterval(() => {
-      setSliderPosition((prev) => (prev + 1) % Math.ceil(products.length / 4)); // Change every 4 images
+      setSliderPosition((prev) => (prev + 1) % Math.ceil(products.length / 4)); 
     }, 2000); // Change every 2 seconds
 
     return () => clearInterval(slideInterval);
@@ -59,8 +57,6 @@ const AllCategory = () => {
           </button>
         ))}
       </div>
-
-      {/* Product Images */}
       <div className="product-images">
         <div className="image-slider">
           {getDisplayedImages().map((image, index) => (
@@ -70,8 +66,6 @@ const AllCategory = () => {
           ))}
         </div>
       </div>
-
-      {/* Products Section */}
       <div className="products-section">
         <h2>Products:</h2>
         <p>
