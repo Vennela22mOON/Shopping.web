@@ -1,10 +1,9 @@
-/* Container for All Categories */
+
 .all-categories-container {
   padding: 50px;
   background-color: #f9f9f9;
 }
 
-/* All Categories Heading */
 .all-category-header h1 {
   font-size: 2.5rem;
   font-weight: bold;
@@ -13,7 +12,6 @@
   color: #333;
 }
 
-/* Category Buttons */
 .all-category {
   display: flex;
   flex-wrap: wrap;
@@ -38,14 +36,12 @@
   transform: translateY(-3px);
 }
 
-/* Product Images Section */
 .product-images {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-/* Image Slider */
 .image-slider {
   display: flex;
   transition: transform 1s ease-in-out;
@@ -65,7 +61,7 @@
   border-radius: 8px;
 }
 
-/* Fade-In Animation */
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -75,7 +71,6 @@
   }
 }
 
-/* Products Section */
 .products-section {
   background-color: #f1f5f9;
   padding: 30px;
