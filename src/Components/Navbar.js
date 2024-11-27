@@ -6,7 +6,6 @@ import EShopLogo from "./images/shop.png";
 import "./Navbar.css";
 
 const Navbar = () => {
-  // Array of categories
   const categories = [
     "T-Shirts",
     "Shoes",
@@ -25,7 +24,6 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Navbar Top (Dark Gray Background) */}
       <nav className="navbar navbar-expand-sm" id="navbar-top">
         <div className="container">
           <h5>E Shop@info.com</h5>
@@ -44,8 +42,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-
-      {/* Navbar Color (Yellow Background) */}
       <nav className="navbar navbar-expand-md" id="navbar-color">
         <div className="container">
           <a className="navbar-brand" href="/" id="navbar-logo">
