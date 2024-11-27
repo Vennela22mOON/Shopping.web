@@ -1,6 +1,6 @@
-/* Footer Styles */
+
 #footer {
-  background-color: #2d2d2d;  /* Darker background color */
+  background-color: #2d2d2d; 
   color: #fff;
   padding: 40px 0;
 }
@@ -45,10 +45,8 @@
 .footer-section a:hover {
   color: #007bff;
 }
-
-/* Footer Bottom Styles */
 .footer-bottom {
-  background-color: #232323;  /* Slightly darker than the footer background */
+  background-color: #232323;  
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -69,7 +67,6 @@
   font-style: italic;
 }
 
-/* For Mobile responsiveness */
 @media screen and (max-width: 768px) {
   .footer-content {
     flex-direction: column;
