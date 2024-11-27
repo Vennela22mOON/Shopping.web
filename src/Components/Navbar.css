@@ -1,49 +1,42 @@
 
-/* Navbar styles */
 #navbar-top {
-  background-color: #343a40; /* Dark Gray */
+  background-color: #343a40; 
   color: white;
-  padding: 10px 0; /* Remove any extra padding */
-  width: 100%;  /* Ensure the navbar spans the entire width */
-  margin: 0;    /* Ensure there's no margin */
+  padding: 10px 0; 
+  width: 100%; 
+  margin: 0;   
 }
 
-/* Yellow background navbar styles */
 #navbar-color {
   background-color: #ffc107; /* Yellow */
   padding: 10px 0;
-  width: 100%; /* Ensure the navbar spans the entire width */
-  margin: 0;   /* Ensure there's no margin */
+  width: 100%; 
+  margin: 0;   
 }
-
-/* Container to ensure proper alignment */
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   justify-content: space-around;
-  padding: 0; /* Remove padding */
+  padding: 0;
   width: 100%;
 }
 
-/* Remove default margin from the navigation items */
 .navbar-nav {
   padding-left: 0;
   margin-left: 0;
 }
 
-/* Make sure there is no extra margin on individual navbar items */
 .navbar-nav .nav-item {
   margin-right: 15px;
 }
 
-/* Optional: Styling for icons in the navbar */
 .new-icons i {
   font-size: 20px;
 }
 
 #navbar-top {
-  background-color: #343a40; /* Dark gray background for the top navbar */
+  background-color: #343a40; 
   color: white;
   padding: 10px 0;
 }
@@ -59,7 +52,7 @@
 #navbar-logo img {
   width: 50px; /* Logo size */
   height: auto;
-  margin-right: 10px; /* Space between logo and text */
+  margin-right: 10px; 
 }
 
 #navbar-logo {
@@ -86,16 +79,14 @@
 }
 
 .navbar-nav .nav-link:hover {
-  color: #000; /* Black on hover */
+  color: #000; 
 }
 .rsc{
   display: flex;
   justify-content: space-around;
 }
-
-/* Buttons in Top Navbar */
 #btn3 {
-  background-color: #ffc107; /* Yellow for buttons */
+  background-color: #ffc107; 
   border: none;
   color: black;
   font-size: 14px;
@@ -106,20 +97,17 @@
 }
 
 #btn3:hover {
-  background-color: #e0a800; /* Slightly darker yellow on hover */
+  background-color: #e0a800;
   color: white;
 }
 
-/* Social Media Icons */
 .icons img {
   margin-left: 10px;
   width: 20px;
   height: 20px;
 }
-
-/* Main Navbar Styles */
 #navbar-color {
-  background-color: #ffc107; /* Yellow background for the second navbar */
+  background-color: #ffc107; 
   border-bottom: 1px solid #ddd;
   padding: 10px 0;
 }
@@ -132,7 +120,7 @@
 }
 
 .new-icons i:hover {
-  color: #000; /* Black on hover */
+  color: #000;
 }
 
 /* Dropdown Styles */
@@ -147,7 +135,7 @@
 }
 
 .dropdown-menu {
-  display: none; /* Initially hidden */
+  display: none; 
   position: absolute;
   background-color: white;
   border: 1px solid #ddd;
@@ -168,7 +156,7 @@
 }
 
 .dropdown-menu .dropdown-item:hover {
-  background-color: #ffc107; /* Yellow on hover */
+  background-color: #ffc107; 
   color: black;
 }
 
