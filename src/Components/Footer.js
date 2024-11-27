@@ -1,5 +1,5 @@
 import React from "react";
-import './Footer.css'; // Import the CSS file
+import './Footer.css'; 
 
 const Footer = () => {
   return (
@@ -42,8 +42,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      {/* Footer Bottom Section */}
       <div className="footer-bottom">
         <p>© Copyright E Shop. All Rights Reserved</p>
         <p>Designed by SA Coding</p>
