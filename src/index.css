@@ -1,60 +1,54 @@
-/* Global Media Queries */
 
 /* For Mobile Devices (max width: 768px) */
 @media screen and (max-width: 768px) {
-  /* Apply styles for mobile devices */
   body {
-    font-size: 14px; /* Adjust font size */
+    font-size: 14px;
   }
 
   .container {
-    width: 100%; /* Full width on mobile */
-    padding: 10px; /* Adjust padding */
+    width: 100%;
+    padding: 10px; 
   }
 
   .navbar, .footer {
-    flex-direction: column; /* Stack navbar items */
+    flex-direction: column; 
   }
 
   .row {
-    flex-direction: column; /* Stack items in rows */
+    flex-direction: column; 
   }
 }
-
-/* For Tablets (max width: 1024px) */
 @media screen and (max-width: 1024px) {
   .container {
-    width: 90%; /* Adjust container width */
+    width: 90%;
   }
 
   .navbar {
-    justify-content: space-between; /* Space out navbar items */
+    justify-content: space-between;
   }
 
   .product {
-    width: 45%; /* Adjust product card width */
+    width: 45%;
     margin-bottom: 20px;
   }
 
   .footer {
     flex-direction: row;
-    justify-content: space-between; /* Display footer sections in row */
+    justify-content: space-between; 
   }
 }
-
-/* For Larger Screens (1024px and above) */
 @media screen and (min-width: 1025px) {
   .navbar {
-    justify-content: flex-start; /* Align navbar items to the left */
+    justify-content: flex-start;
   }
 
   .product {
-    width: 22%; /* Display product cards side by side */
+    width: 22%;
     margin-bottom: 30px;
   }
 
   .footer {
     display: flex;
-    justify-content: space-between; /* Space footer sections evenly */
+    justify-content: space-between; 
   }
 }
