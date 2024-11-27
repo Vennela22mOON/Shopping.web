@@ -1,6 +1,4 @@
-/* Contact Page Styles */
 
-/* General Contact Container */
 .contact-container {
   max-width: 1000px;
   margin: 0 auto;
@@ -12,7 +10,6 @@
   margin-top: 50px;
 }
 
-/* Heading Styles */
 h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -31,12 +28,10 @@ h2 {
   margin-bottom: 25px;
 }
 
-/* Form Group Styles */
 .form-group {
   margin-bottom: 25px;
 }
 
-/* Input Field Styles */
 .form-control {
   padding: 15px;
   font-size: 1.2rem;
@@ -53,7 +48,6 @@ h2 {
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
 }
 
-/* Textarea Styles */
 textarea.form-control {
   padding: 15px;
   font-size: 1.2rem;
@@ -71,7 +65,6 @@ textarea.form-control:focus {
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
 }
 
-/* Button Styles */
 .contact-btn {
   background-color: #007bff;
   color: white;
@@ -100,7 +93,6 @@ textarea.form-control:focus {
   width: 48%;
 }
 
-/* For Mobile responsiveness */
 @media screen and (max-width: 768px) {
   .row {
     flex-direction: column;
@@ -112,7 +104,6 @@ textarea.form-control:focus {
   }
 }
 
-/* Added some space between the form and the message box */
 textarea.form-control {
   margin-top: 15px;
 }
@@ -121,7 +112,6 @@ textarea.form-control {
   margin-top: 25px;
 }
 
-/* New Section for Three Features */
 .features {
   display: flex;
   justify-content: space-between;
@@ -147,8 +137,6 @@ textarea.form-control {
   font-weight: 600;
   color: #333;
 }
-
-/* For Mobile responsiveness */
 @media screen and (max-width: 768px) {
   .features {
     flex-direction: column;
@@ -160,8 +148,6 @@ textarea.form-control {
     margin-bottom: 25px;
   }
 }
-
-/* New Section for Subscribe to E-Shop */
 .subscribe-section {
   margin-top: 50px;
   text-align: center;
