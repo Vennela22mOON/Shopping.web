@@ -1,5 +1,5 @@
 import React from "react";
-import SmartWatchImage from "./images/watch2.png"; // Replace with your actual image path
+import SmartWatchImage from "./images/watch2.png"; 
 import "./Banner.css";
 
 const Banner = () => {
@@ -14,8 +14,6 @@ const Banner = () => {
             <button>SHOP NOW</button>
           </div>
         </div>
-
-        {/* Right side with the image */}
         <div className="banner-image">
           <img src={SmartWatchImage} alt="Smart Watch" />
         </div>
