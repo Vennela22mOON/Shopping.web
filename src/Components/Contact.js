@@ -1,6 +1,6 @@
 import React from "react";
-import "./Contact.css"; // Importing the CSS file
-import { FaShippingFast, FaTruck, FaCogs } from 'react-icons/fa'; // Importing Font Awesome icons
+import "./Contact.css"; 
+import { FaShippingFast, FaTruck, FaCogs } from 'react-icons/fa'; 
 
 const Contact = () => {
   return (
@@ -37,8 +37,6 @@ const Contact = () => {
             <button className="contact-btn">Send Message</button>
           </div>
         </div>
-
-        {/* Right Column for Message */}
         <div className="col-md-6">
           <div className="form-group">
             <textarea
@@ -50,8 +48,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-
-      {/* New Section for Three Headings with Icons */}
       <div className="features">
         <div className="feature-item">
           <FaShippingFast className="feature-icon" />
@@ -66,8 +62,6 @@ const Contact = () => {
           <h3>Big Choice</h3>
         </div>
       </div>
-
-      {/* New Section for Subscribe to E-Shop Store */}
       <div className="subscribe-section">
         <h2>Subscribe To The E Shop Store For Latest Update</h2>
         <div className="subscribe-form">
